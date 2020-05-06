@@ -1,0 +1,67 @@
+Define Cryptography
+
+In information security, cryptography refers to the study of mathematical techniques to achieve goals
+such as confidentiality, integrity, authentication, non-repudiation, etc. It does not mean that it provides
+information security - rather a subset of techniques.
+
+Describe Symmetric Key / Private Key
+
+Sender and receiver share a common (private) key
+Encryption and decryption is done using the private key
+This is also known as conventional/shared-key/single-key cryptography
+
+Describe Asymmetric Key / Public Key
+
+Every user has a private key and a public key
+encryption is done using the public key and ecryption using private key
+also called two-key cryptography
+
+What are the main functions of private key encryption
+
+generate a key, encrypt, and decrypt
+
+What are the key points of hash functions?
+
+h(x) -> hash
+hash is fixed length (16,20,32 bytes)
+h(x) is fast / cheap
+given hash, cannot compute x
+given x, cannot find y so that h(x) == h(y)
+
+What is a certificate?
+
+A digital certificate is an electronic document used to prove the ownership of a public key.
+
+What elements does a certificate include?
+
+The certificate includes information about the key, information about the identity of its owner (subject),
+and the digital signature of an entitiy that has verified the certificate's contents (issuer).
+
+What are some reasons why some people are opposed to digital rights management (DRM)?
+
+Many people are opposed to DRM because they feel it puts too much power in the hands of:
+content creators, DRM technology providers, and government. They are concerned that DRM technology could be
+used in an oppressive way.
+
+What is the vulnerability in DRM systems? Briefly describe it.
+
+The vulnerability in DRM systems is called the analog hole. The idea is that DRM systems are tied to the software
+being distributed. If, for example, Alice loses the decrypted file, she must purchase another one. Another example
+is if Alice decides to record the mp3 by some other means. This copied mp3 does not have DRM on it so others may
+download this copy for free.
+
+What is the purpose of a Trusted Platform Module (TPM)?
+
+TPM's provide assurance that a specific software stack was loaded. In other words, it helps us understand
+the state and behavior of a system we cannot fully control.
+
+List some approaches to Anti-Piracy
+
+Keep a certified list of customers, link the software to the hardware, link the software to a movable piece of
+hardware that cannot easily be copied, software watermarking: embed a secret into the software which can be retrieved
+on demand.
+
+What are some different types of software watermarks?
+
+Static data (i.e. strings), dynamic software, dynamic data, easter egg, dynamic execution trace, others,..
+(fingerprinting, license mark)
